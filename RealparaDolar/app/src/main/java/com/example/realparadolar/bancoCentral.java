@@ -17,7 +17,7 @@ private WebView wv;
         setContentView(R.layout.activity_banco_central);
 
         wv = findViewById(R.id.webView);
-        WebSettings webSettings = wv.getSettings(); t
+        WebSettings webSettings = wv.getSettings();
        webSettings.setDomStorageEnabled(true);
         webSettings.setJavaScriptEnabled(true);
         wv.setWebViewClient(new WebViewClient());

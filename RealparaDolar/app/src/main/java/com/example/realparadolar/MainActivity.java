@@ -46,4 +46,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    public void bancoCentral(View view){
+        Intent i = new Intent(this,com.example.realparadolar.bancoCentral.class);
+        startActivity(i);
+    }
 }

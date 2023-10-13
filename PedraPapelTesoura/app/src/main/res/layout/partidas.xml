@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        app:columnCount="4"
+        app:rowCount="4">
+
+        <TextView
+            android:id="@+id/nomeJogador"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Nome Jogador"
+            android:textSize="14sp"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/pontuacaojogador"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="Pontuacao"
+            android:textSize="14sp"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/TempoJogando"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:text="Tempo jogando "
+            android:textSize="14sp"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/hId"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="id"
+            app:layout_column="0"
+            app:layout_row="0" />
+    </androidx.gridlayout.widget.GridLayout>
+</LinearLayout>
